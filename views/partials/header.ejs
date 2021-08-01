@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Bank of India</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans&family=Oxygen&family=Roboto:wght@100&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <!-- <link
+      rel="apple-touch-icon"
+      href="favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="favicons/favicon-16x16.png"
+      sizes="16x16"
+    /> -->
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/about.css" rel="stylesheet" />
+    <link href="css/details.css" rel="stylesheet" />
+    <link href="css/profile.css" rel="stylesheet" />
+    <link href="css/partials.css" rel="stylesheet" />
+    <link href="css/history.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap-social.css" />
+  </head>
+  <body>
+    <!-- <div id="layer2" class="center hideform">
+      <button id="close" style="float: right">X</button>
+
+      <form action="/profile" class="transfer">
+        <legend>Transfer Window</legend>
+        <div class="mb-3">
+          <label for="TextInput" class="form-label">Name</label>
+          <input
+            type="text"
+            id="TextInput"
+            class="form-control"
+            placeholder="Full Name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="NumberInput" class="form-label">Amount</label>
+          <input
+            type="number"
+            id="NumberInput"
+            class="form-control"
+            placeholder="Balance"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="Select" class="form-label">Recipent</label>
+          <select id="Select" class="form-select">
+            <option value="select">Select</option>
+            <option value="Debarchan">Debarchan</option>
+            <option value="Joey">Joey</option>
+            <option value="Phoebe">Phoebe</option>
+            <option value="Chandler">Chandler</option>
+            <option value="Ross">Ross</option>
+            <option value="Monica">Monica</option>
+            <option value="Rachel">Rachel</option>
+            <option value="Janice">Janice</option>
+            <option value="Ben">Ben</option>
+            <option value="Richard">Richard</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="FieldsetCheck"
+            />
+            <label class="form-check-label" for="FieldsetCheck">
+              Agree to our terms & conditions
+            </label>
+          </div>
+        </div>
+      </form>
+      <button id="show1" class="btn transferbtn btn-primary">Transfer</button>
+    </div>
+    <div id="layer3" class="center1 hideform1">
+      <button id="close1" style="float: right">X</button>
+
+      <form action="/profile" class="transfer1">
+        <legend>Payment Succesful !</legend>
+      </form>
+    </div> -->
+    <div class="back-img">
+        <nav class="navbar navbar-expand-lg navbar-custom bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">Bank Of India</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="/">Create a customer</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="/details">View all details</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="/history">Transfer history</a>
+                      </li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">News</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                  <button class="btn btn-primary" type="submit"><a class="" href="/contact">Contact Us</a></button>
+                </span>
+              </div>
+            </div>
+          </nav>

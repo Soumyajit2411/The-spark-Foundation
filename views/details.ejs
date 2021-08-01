@@ -1,0 +1,31 @@
+<%- include('partials/header'); -%>
+      <div class="details row">
+        <table class="table table-sm table-hover">
+          <thead>
+            <tr>
+              <th scope="col">SI.No.</th>
+              <th scope="col">Name</th>
+              <th scope="col">Account Number</th>
+              <th scope="col">View Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <%users.forEach((customer,i)=>{%>
+            <tr>
+              <th scope="row"><%= i+1%></th>
+              <td><%= customer.name%></td>
+              <td><%= customer.account%></td>
+              <%let currentUser = JSON.stringify(customer);%>
+              <td class="td">
+                <form action="/profile" method="POST">
+                    <button class="btn btn-pro" type="submit" name="user" value="<%= currentUser %>">
+                        <a>view</a>
+                    </button>
+                </form>
+              </td>
+            </tr>
+            <%});%>
+          </tbody>
+        </table>
+      </div>
+<%- include('partials/footer'); -%>

@@ -1,0 +1,27 @@
+<%- include('partials/header'); -%>
+      <div class="row profile">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqReZKvgVWcJsY5_7HTtktbp0K1oFxpInCeg&usqp=CAU"
+            class="card-img-top mx-auto"
+            alt="profile pic"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Soumyajit Roy</h5>
+            <p class="card-text">
+              Name : Soumyajit Roy <br />Account No : 80913456234 <br />IFSC
+              Code : IBNH985670 <br />Balance : 10000
+            </p>
+          </div>
+
+          <div class="card-body">
+            <form action="/transaction" method="POST">
+              <button class="btn btn-primary" type="submit" name="user" value="Soumyajit">Transfer</button>
+            </form>
+            <form action="/history" method="POST">
+              <button type="submit" class="btn btn-primary" name="user" value="Soumyajit">Transfer History</button>
+            </form>
+          </div>
+        </div>
+      </div>
+<%- include('partials/footer'); -%>

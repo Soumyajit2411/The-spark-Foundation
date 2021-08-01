@@ -1,0 +1,58 @@
+<%- include('partials/header'); -%>
+<div id="layer2" class="center ">
+    <!-- <button id="close" style="float: right">X</button> -->
+
+    <form action="/success" class="transfer">
+      <legend>Transfer Window</legend>
+      <p class="balance-display">Your current balance is Rs. 1000</p>
+      <div class="mb-3">
+        <label for="TextInput" class="form-label">Name</label>
+        <input
+          type="text"
+          id="TextInput"
+          class="form-control"
+          placeholder="Full Name"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="NumberInput" class="form-label">Amount</label>
+        <input
+          type="number"
+          id="NumberInput"
+          class="form-control"
+          placeholder="Balance"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="Select" class="form-label">Recipent</label>
+        <select id="Select" class="form-select">
+          <option value="select">Select</option>
+          <option value="Debarchan">Debarchan</option>
+          <option value="Joey">Joey</option>
+          <option value="Phoebe">Phoebe</option>
+          <option value="Chandler">Chandler</option>
+          <option value="Ross">Ross</option>
+          <option value="Monica">Monica</option>
+          <option value="Rachel">Rachel</option>
+          <option value="Janice">Janice</option>
+          <option value="Ben">Ben</option>
+          <option value="Richard">Richard</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="FieldsetCheck"
+          />
+          <label class="form-check-label" for="FieldsetCheck">
+            Agree to our terms & conditions
+          </label>
+        </div>
+      </div>
+    </form>
+    <button id="show1" class="btn transferbtn btn-primary">Transfer</button>
+  </div>
+
+<%- include('partials/footer'); -%>

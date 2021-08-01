@@ -1,0 +1,99 @@
+.profile {
+  width: 500px;
+  margin: 25px 500px 25px 500px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
+#layer2 {
+  z-index: 9;
+}
+#layer3 {
+  z-index: 10;
+}
+.card {
+  height: 200px;
+  background-color: transparent;
+  color: white;
+}
+.card-img-top {
+  width: 100px;
+  height: 1oopx;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card-body .btn {
+  margin: 0;
+  font-size: 13px;
+}
+.center {
+  margin: 0px 450px 0px 450px;
+  position: absolute;
+  background-color: white;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.hideform {
+  display: none;
+}
+.transfer {
+  text-align: left;
+  padding: 25px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-size: 15px;
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: rgba(100, 100, 100, 1) !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: #a2dbfa;
+}
+
+legend {
+  text-align: center;
+}
+.transferbtn {
+  float: center;
+}
+
+.center1 {
+  margin: 50px 450px 50px 450px;
+  position: absolute;
+  background-color: white;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight:700;
+}
+
+.hideform1 {
+  display: none;
+}
+.transfer1 {
+  text-align: left;
+  padding: 25px;
+}
+.blur {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.success-para{
+  text-align: center;
+  padding: 5px;
+}
+.success-button{
+  margin-left: 125px;
+}
+.balance-display{
+  text-align: center;
+}
